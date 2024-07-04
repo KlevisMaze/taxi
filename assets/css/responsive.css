@@ -27,7 +27,12 @@
 	nav.navbar.bootsnav .navbar-brand {padding: 25px;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 }/*max-width:992px*/
-
+@media (max-width: 768px) {
+    .navbar-brand {
+      justify-content: center;
+      width: 100%;
+    }
+}
 @media screen and (max-width:991px){
 	.welcome-hero-txt h2 {line-height: 1.6;}
 
